@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ExerModel" representedClassName="ExerModel" syncable="YES" codeGenerationType="class">
+        <attribute name="exEx" optional="YES" attributeType="String"/>
+        <attribute name="exName" optional="YES" attributeType="String"/>
+        <attribute name="exNumEx" optional="YES" attributeType="String"/>
+        <attribute name="exPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MatchesModel" representedClassName="MatchesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="matDate" optional="YES" attributeType="String"/>
+        <attribute name="matLoc" optional="YES" attributeType="String"/>
+        <attribute name="matResT1" optional="YES" attributeType="String"/>
+        <attribute name="matResT2" optional="YES" attributeType="String"/>
+        <attribute name="matStad" optional="YES" attributeType="String"/>
+        <attribute name="matTeamName1" optional="YES" attributeType="String"/>
+        <attribute name="matTeamName2" optional="YES" attributeType="String"/>
+        <attribute name="matTeamPhoto1" optional="YES" attributeType="String"/>
+        <attribute name="matTeamPhoto2" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PartModel" representedClassName="PartModel" syncable="YES" codeGenerationType="class">
+        <attribute name="partName" optional="YES" attributeType="String"/>
+        <attribute name="partPhoto" optional="YES" attributeType="String"/>
+        <attribute name="partSurname" optional="YES" attributeType="String"/>
+        <attribute name="partTeam" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TeamModel" representedClassName="TeamModel" syncable="YES" codeGenerationType="class">
+        <attribute name="teamLocation" optional="YES" attributeType="String"/>
+        <attribute name="teamName" optional="YES" attributeType="String"/>
+        <attribute name="teamPhoto" optional="YES" attributeType="String"/>
+    </entity>
+</model>
